@@ -23,3 +23,7 @@ APP_CONFIG = {
     'default_zoom': 10, 
     'debug': True
 }
+MODEL_CONFIG = {
+    'price_model': 'model/model.pkl',
+    'model_version': '1.0.0'
+}

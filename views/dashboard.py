@@ -81,6 +81,7 @@ def render_search_block(properties):
                     'type': property_type,
                     'rooms': rooms
                 }
+                # Переходим на страницу карты
                 st.session_state.page = "map"
                 st.rerun()
     
