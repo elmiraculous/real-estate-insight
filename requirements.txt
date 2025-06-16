@@ -6,3 +6,7 @@ matplotlib
 geopandas
 pydeck
 osmnx
+plotly
+seaborn
+geopy
+statsmodels

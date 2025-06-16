@@ -14,7 +14,7 @@ def show_analytics_page():
     
     try:
         # Загрузка данных
-        df = pd.read_csv('data/cleaned_real_estate_data .csv')
+        df = pd.read_csv('data/cleaned_real_estate_data.csv')
         
         # Основные метрики
         col1, col2, col3 = st.columns(3)
